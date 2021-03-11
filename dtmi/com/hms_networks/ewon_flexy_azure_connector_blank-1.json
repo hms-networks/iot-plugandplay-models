@@ -1,0 +1,14 @@
+{
+	"@context": "dtmi:dtdl:context;2",
+	"@id": "dtmi:com:hms_networks:Ewon_Flexy_Azure_Connector_Blank;1",
+	"@type": "Interface",
+	"displayName": "Ewon_Flexy_Azure_Connector_Blank",
+	"contents": [
+		{
+			"@type": "Property",
+			"name": "DeviceMode",
+			"writable": true,
+			"schema": "string"
+		}
+	]
+}

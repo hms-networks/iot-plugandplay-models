@@ -1,0 +1,24 @@
+{
+	"@context": "dtmi:dtdl:context;2",
+	"@id": "dtmi:com:hms_networks:Ewon_Flexy_Azure_Connector_Example;1",
+	"@type": "Interface",
+	"displayName": "Ewon_Flexy_Azure_Connector_Example",
+	"contents": [
+		{
+			"@type": "Property",
+			"name": "DeviceMode",
+			"writable": true,
+			"schema": "string"
+		},
+		{
+			"@type": "Telemetry",
+			"name": "ConnectorControl",
+			"schema": "boolean"
+		},
+		{
+			"@type": "Telemetry",
+			"name": "EXAMPLE",
+			"schema": "boolean"
+		}
+	]
+}
